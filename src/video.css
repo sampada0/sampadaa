@@ -442,3 +442,12 @@ html::-webkit-scrollbar-thumb {
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 600px) {
+    nav a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
